@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Droid Arabic Kufi Bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+        <array key="Droid Arabic Kufi.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GetMyAge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cGJ-tt-cmN">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="270"/>
+                                <color key="backgroundColor" red="0.91028290987014771" green="0.75000274181365967" blue="0.17407229542732239" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="4f3-RL-4H9"/>
+                                    <constraint firstAttribute="height" constant="170" id="RUz-px-Nej"/>
+                                </constraints>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="4f3-RL-4H9"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="RUz-px-Nej"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZbB-Ec-chE">
+                                <rect key="frame" x="0.0" y="270" width="834" height="842"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.60249892979452058" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ww0-wb-Klb">
+                                <rect key="frame" x="180" y="170" width="474" height="200"/>
+                                <subviews>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="7qJ-tQ-iQd">
+                                        <rect key="frame" x="0.0" y="0.0" width="474" height="200"/>
+                                        <date key="date" timeIntervalSinceReferenceDate="538236263.42231202">
+                                            <!--2018-01-21 14:04:23 +0000-->
+                                        </date>
+                                    </datePicker>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="7qJ-tQ-iQd" secondAttribute="trailing" id="40p-gF-1OH"/>
+                                    <constraint firstAttribute="height" constant="200" id="KjM-I4-m4k"/>
+                                    <constraint firstItem="7qJ-tQ-iQd" firstAttribute="top" secondItem="Ww0-wb-Klb" secondAttribute="top" id="Pwh-ox-8SV"/>
+                                    <constraint firstAttribute="bottom" secondItem="7qJ-tQ-iQd" secondAttribute="bottom" id="aWE-Jy-sOP"/>
+                                    <constraint firstAttribute="height" constant="150" id="fQw-3T-5an"/>
+                                    <constraint firstItem="7qJ-tQ-iQd" firstAttribute="leading" secondItem="Ww0-wb-Klb" secondAttribute="leading" id="wBr-Ex-geP"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="KjM-I4-m4k"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="fQw-3T-5an"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر تاريخ الميلاد" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9d-iF-bIc">
+                                <rect key="frame" x="20" y="70" width="794" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="MNY-tT-6bs">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="17"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="0.75425406678082196" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="35"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="النتيجة" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lp8-TC-Maz" customClass="Label" customModule="GetMyAge" customModuleProvider="target">
+                                <rect key="frame" x="120" y="450" width="594" height="280"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="JAa-c6-d3W"/>
+                                    <constraint firstAttribute="height" constant="200" id="NSg-0o-GLm"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="K2G-O0-55G"/>
+                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="20"/>
+                                <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="JAa-c6-d3W"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="26"/>
+                                    <mask key="constraints">
+                                        <exclude reference="NSg-0o-GLm"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IsW-Mq-nRK">
+                                <rect key="frame" x="120" y="830" width="594" height="60"/>
+                                <color key="backgroundColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1Vb-94-1y9"/>
+                                    <constraint firstAttribute="height" constant="50" id="h2A-S3-9pv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="17"/>
+                                <state key="normal" title="احسب عمري">
+                                    <color key="titleColor" red="0.87788552045822144" green="0.40909552574157715" blue="0.80281692743301392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1Vb-94-1y9"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="26"/>
+                                    <mask key="constraints">
+                                        <include reference="1Vb-94-1y9"/>
+                                        <exclude reference="h2A-S3-9pv"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="buGetAge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SGA-lW-BJA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ww0-wb-Klb" firstAttribute="top" secondItem="G9d-iF-bIc" secondAttribute="bottom" constant="35" id="30u-2D-8nU"/>
+                            <constraint firstItem="IsW-Mq-nRK" firstAttribute="top" secondItem="lp8-TC-Maz" secondAttribute="bottom" constant="100" id="3b1-SO-E27"/>
+                            <constraint firstItem="lp8-TC-Maz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="6ia-33-cJY"/>
+                            <constraint firstItem="cGJ-tt-cmN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7If-dP-eag"/>
+                            <constraint firstAttribute="trailing" secondItem="IsW-Mq-nRK" secondAttribute="trailing" constant="20" id="7WW-bd-z0P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lp8-TC-Maz" secondAttribute="trailing" constant="120" id="CRG-8H-pAA"/>
+                            <constraint firstItem="IsW-Mq-nRK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FZL-jy-dkv"/>
+                            <constraint firstAttribute="trailing" secondItem="lp8-TC-Maz" secondAttribute="trailing" constant="20" id="Fma-Um-yJN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IsW-Mq-nRK" secondAttribute="trailing" constant="120" id="G29-Ng-8Jc"/>
+                            <constraint firstItem="Ww0-wb-Klb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="180" id="H2Z-k8-fhf"/>
+                            <constraint firstItem="ZbB-Ec-chE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="MNd-uJ-V7G"/>
+                            <constraint firstItem="IsW-Mq-nRK" firstAttribute="top" secondItem="lp8-TC-Maz" secondAttribute="bottom" constant="70" id="TOe-l8-Kku"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="G9d-iF-bIc" secondAttribute="trailing" constant="20" id="U37-CI-vgy"/>
+                            <constraint firstItem="Ww0-wb-Klb" firstAttribute="top" secondItem="G9d-iF-bIc" secondAttribute="bottom" constant="50" id="Y3k-Ub-1sN"/>
+                            <constraint firstItem="lp8-TC-Maz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YyH-PD-fAK"/>
+                            <constraint firstItem="G9d-iF-bIc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="a3D-nK-ceC"/>
+                            <constraint firstItem="ZbB-Ec-chE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bv8-uz-807"/>
+                            <constraint firstItem="lp8-TC-Maz" firstAttribute="top" secondItem="Ww0-wb-Klb" secondAttribute="bottom" constant="80" id="f2Y-HA-r7B"/>
+                            <constraint firstItem="G9d-iF-bIc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="hLE-v4-zsQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ww0-wb-Klb" secondAttribute="trailing" constant="180" id="iOQ-6i-BLd"/>
+                            <constraint firstItem="G9d-iF-bIc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="kf0-0O-oz5"/>
+                            <constraint firstItem="cGJ-tt-cmN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qf2-0q-aSZ"/>
+                            <constraint firstItem="Ww0-wb-Klb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="r1q-qL-xFo"/>
+                            <constraint firstItem="IsW-Mq-nRK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="rdN-30-b4R"/>
+                            <constraint firstItem="ZbB-Ec-chE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sBL-0r-Qem"/>
+                            <constraint firstItem="ZbB-Ec-chE" firstAttribute="top" secondItem="cGJ-tt-cmN" secondAttribute="bottom" id="tz6-jv-OOs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ww0-wb-Klb" secondAttribute="trailing" constant="55" id="yLH-Tw-oF9"/>
+                            <constraint firstItem="cGJ-tt-cmN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zHX-YG-Nz5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="CRG-8H-pAA"/>
+                                <exclude reference="G29-Ng-8Jc"/>
+                                <exclude reference="iOQ-6i-BLd"/>
+                                <exclude reference="hLE-v4-zsQ"/>
+                                <exclude reference="H2Z-k8-fhf"/>
+                                <exclude reference="Y3k-Ub-1sN"/>
+                                <exclude reference="6ia-33-cJY"/>
+                                <exclude reference="3b1-SO-E27"/>
+                                <exclude reference="rdN-30-b4R"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <exclude reference="yLH-Tw-oF9"/>
+                                <exclude reference="kf0-0O-oz5"/>
+                                <exclude reference="30u-2D-8nU"/>
+                                <exclude reference="r1q-qL-xFo"/>
+                                <exclude reference="Fma-Um-yJN"/>
+                                <exclude reference="YyH-PD-fAK"/>
+                                <exclude reference="7WW-bd-z0P"/>
+                                <exclude reference="FZL-jy-dkv"/>
+                                <exclude reference="TOe-l8-Kku"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="DataPicker" destination="7qJ-tQ-iQd" id="aWM-QU-m4f"/>
+                        <outlet property="laDisplay" destination="lp8-TC-Maz" id="mss-Ey-tL6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="132.06521739130434"/>
+        </scene>
+    </scenes>
+</document>

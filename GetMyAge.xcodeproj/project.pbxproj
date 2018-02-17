@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311415EE2014AD9B00FB25BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311415ED2014AD9B00FB25BD /* AppDelegate.swift */; };
+		311415F02014AD9B00FB25BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311415EF2014AD9B00FB25BD /* ViewController.swift */; };
+		311415F32014AD9B00FB25BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311415F12014AD9B00FB25BD /* Main.storyboard */; };
+		311415F62014AD9B00FB25BD /* GetMyAge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 311415F42014AD9B00FB25BD /* GetMyAge.xcdatamodeld */; };
+		311415F82014AD9B00FB25BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311415F72014AD9B00FB25BD /* Assets.xcassets */; };
+		311415FB2014AD9B00FB25BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311415F92014AD9B00FB25BD /* LaunchScreen.storyboard */; };
+		311416062014AD9B00FB25BD /* GetMyAgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311416052014AD9B00FB25BD /* GetMyAgeTests.swift */; };
+		31A8626E2014B88900605AB1 /* Droid Arabic Kufi Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31A862682014B88900605AB1 /* Droid Arabic Kufi Bold.ttf */; };
+		31A8626F2014B88900605AB1 /* Droid Arabic Kufi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31A862692014B88900605AB1 /* Droid Arabic Kufi.ttf */; };
+		31A862702014B88900605AB1 /* GE Thameen Book Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31A8626A2014B88900605AB1 /* GE Thameen Book Italic.otf */; };
+		31A862712014B88900605AB1 /* DIN Next LT W23 Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31A8626B2014B88900605AB1 /* DIN Next LT W23 Light.otf */; };
+		31A862722014B88900605AB1 /* GE SS Two Bold Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31A8626C2014B88900605AB1 /* GE SS Two Bold Bold.otf */; };
+		31A862732014B88900605AB1 /* Noto Kufi Arabic Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31A8626D2014B88900605AB1 /* Noto Kufi Arabic Bold.ttf */; };
+		31A8627620155EE000605AB1 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A8627520155EE000605AB1 /* Label.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		311416022014AD9B00FB25BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311415E22014AD9A00FB25BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311415E92014AD9A00FB25BD;
+			remoteInfo = GetMyAge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		311415EA2014AD9B00FB25BD /* GetMyAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetMyAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		311415ED2014AD9B00FB25BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		311415EF2014AD9B00FB25BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		311415F22014AD9B00FB25BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		311415F52014AD9B00FB25BD /* GetMyAge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GetMyAge.xcdatamodel; sourceTree = "<group>"; };
+		311415F72014AD9B00FB25BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		311415FA2014AD9B00FB25BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		311415FC2014AD9B00FB25BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311416012014AD9B00FB25BD /* GetMyAgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetMyAgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		311416052014AD9B00FB25BD /* GetMyAgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMyAgeTests.swift; sourceTree = "<group>"; };
+		311416072014AD9B00FB25BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A862682014B88900605AB1 /* Droid Arabic Kufi Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Droid Arabic Kufi Bold.ttf"; sourceTree = "<group>"; };
+		31A862692014B88900605AB1 /* Droid Arabic Kufi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Droid Arabic Kufi.ttf"; sourceTree = "<group>"; };
+		31A8626A2014B88900605AB1 /* GE Thameen Book Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GE Thameen Book Italic.otf"; sourceTree = "<group>"; };
+		31A8626B2014B88900605AB1 /* DIN Next LT W23 Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Next LT W23 Light.otf"; sourceTree = "<group>"; };
+		31A8626C2014B88900605AB1 /* GE SS Two Bold Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GE SS Two Bold Bold.otf"; sourceTree = "<group>"; };
+		31A8626D2014B88900605AB1 /* Noto Kufi Arabic Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Noto Kufi Arabic Bold.ttf"; sourceTree = "<group>"; };
+		31A8627520155EE000605AB1 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311415E72014AD9A00FB25BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311415FE2014AD9B00FB25BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311415E12014AD9A00FB25BD = {
+			isa = PBXGroup;
+			children = (
+				311415EC2014AD9B00FB25BD /* GetMyAge */,
+				311416042014AD9B00FB25BD /* GetMyAgeTests */,
+				311415EB2014AD9B00FB25BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		311415EB2014AD9B00FB25BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				311415EA2014AD9B00FB25BD /* GetMyAge.app */,
+				311416012014AD9B00FB25BD /* GetMyAgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		311415EC2014AD9B00FB25BD /* GetMyAge */ = {
+			isa = PBXGroup;
+			children = (
+				31A8627420155EB500605AB1 /* View */,
+				31A862672014B83700605AB1 /* Resources */,
+				311415ED2014AD9B00FB25BD /* AppDelegate.swift */,
+				311415EF2014AD9B00FB25BD /* ViewController.swift */,
+				311415F12014AD9B00FB25BD /* Main.storyboard */,
+				311415F72014AD9B00FB25BD /* Assets.xcassets */,
+				311415F92014AD9B00FB25BD /* LaunchScreen.storyboard */,
+				311415FC2014AD9B00FB25BD /* Info.plist */,
+				311415F42014AD9B00FB25BD /* GetMyAge.xcdatamodeld */,
+			);
+			path = GetMyAge;
+			sourceTree = "<group>";
+		};
+		311416042014AD9B00FB25BD /* GetMyAgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				311416052014AD9B00FB25BD /* GetMyAgeTests.swift */,
+				311416072014AD9B00FB25BD /* Info.plist */,
+			);
+			path = GetMyAgeTests;
+			sourceTree = "<group>";
+		};
+		31A862672014B83700605AB1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31A8626B2014B88900605AB1 /* DIN Next LT W23 Light.otf */,
+				31A862682014B88900605AB1 /* Droid Arabic Kufi Bold.ttf */,
+				31A862692014B88900605AB1 /* Droid Arabic Kufi.ttf */,
+				31A8626C2014B88900605AB1 /* GE SS Two Bold Bold.otf */,
+				31A8626A2014B88900605AB1 /* GE Thameen Book Italic.otf */,
+				31A8626D2014B88900605AB1 /* Noto Kufi Arabic Bold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31A8627420155EB500605AB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31A8627520155EE000605AB1 /* Label.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311415E92014AD9A00FB25BD /* GetMyAge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3114160A2014AD9B00FB25BD /* Build configuration list for PBXNativeTarget "GetMyAge" */;
+			buildPhases = (
+				311415E62014AD9A00FB25BD /* Sources */,
+				311415E72014AD9A00FB25BD /* Frameworks */,
+				311415E82014AD9A00FB25BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetMyAge;
+			productName = GetMyAge;
+			productReference = 311415EA2014AD9B00FB25BD /* GetMyAge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		311416002014AD9B00FB25BD /* GetMyAgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3114160D2014AD9B00FB25BD /* Build configuration list for PBXNativeTarget "GetMyAgeTests" */;
+			buildPhases = (
+				311415FD2014AD9B00FB25BD /* Sources */,
+				311415FE2014AD9B00FB25BD /* Frameworks */,
+				311415FF2014AD9B00FB25BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311416032014AD9B00FB25BD /* PBXTargetDependency */,
+			);
+			name = GetMyAgeTests;
+			productName = GetMyAgeTests;
+			productReference = 311416012014AD9B00FB25BD /* GetMyAgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		311415E22014AD9A00FB25BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ahmed Abuelmagd";
+				TargetAttributes = {
+					311415E92014AD9A00FB25BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					311416002014AD9B00FB25BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 311415E92014AD9A00FB25BD;
+					};
+				};
+			};
+			buildConfigurationList = 311415E52014AD9A00FB25BD /* Build configuration list for PBXProject "GetMyAge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 311415E12014AD9A00FB25BD;
+			productRefGroup = 311415EB2014AD9B00FB25BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				311415E92014AD9A00FB25BD /* GetMyAge */,
+				311416002014AD9B00FB25BD /* GetMyAgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		311415E82014AD9A00FB25BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311415FB2014AD9B00FB25BD /* LaunchScreen.storyboard in Resources */,
+				311415F82014AD9B00FB25BD /* Assets.xcassets in Resources */,
+				31A862732014B88900605AB1 /* Noto Kufi Arabic Bold.ttf in Resources */,
+				31A862702014B88900605AB1 /* GE Thameen Book Italic.otf in Resources */,
+				31A8626E2014B88900605AB1 /* Droid Arabic Kufi Bold.ttf in Resources */,
+				31A862722014B88900605AB1 /* GE SS Two Bold Bold.otf in Resources */,
+				31A862712014B88900605AB1 /* DIN Next LT W23 Light.otf in Resources */,
+				31A8626F2014B88900605AB1 /* Droid Arabic Kufi.ttf in Resources */,
+				311415F32014AD9B00FB25BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311415FF2014AD9B00FB25BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		311415E62014AD9A00FB25BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311415F02014AD9B00FB25BD /* ViewController.swift in Sources */,
+				311415F62014AD9B00FB25BD /* GetMyAge.xcdatamodeld in Sources */,
+				31A8627620155EE000605AB1 /* Label.swift in Sources */,
+				311415EE2014AD9B00FB25BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311415FD2014AD9B00FB25BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311416062014AD9B00FB25BD /* GetMyAgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		311416032014AD9B00FB25BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311415E92014AD9A00FB25BD /* GetMyAge */;
+			targetProxy = 311416022014AD9B00FB25BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		311415F12014AD9B00FB25BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311415F22014AD9B00FB25BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		311415F92014AD9B00FB25BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311415FA2014AD9B00FB25BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		311416082014AD9B00FB25BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		311416092014AD9B00FB25BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3114160B2014AD9B00FB25BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SCDSUMP5Q;
+				INFOPLIST_FILE = GetMyAge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AhmedAbuElmagd.GetMyAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3114160C2014AD9B00FB25BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SCDSUMP5Q;
+				INFOPLIST_FILE = GetMyAge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AhmedAbuElmagd.GetMyAge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3114160E2014AD9B00FB25BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SCDSUMP5Q;
+				INFOPLIST_FILE = GetMyAgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AhmedAbuElmagd.GetMyAgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetMyAge.app/GetMyAge";
+			};
+			name = Debug;
+		};
+		3114160F2014AD9B00FB25BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SCDSUMP5Q;
+				INFOPLIST_FILE = GetMyAgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AhmedAbuElmagd.GetMyAgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetMyAge.app/GetMyAge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311415E52014AD9A00FB25BD /* Build configuration list for PBXProject "GetMyAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311416082014AD9B00FB25BD /* Debug */,
+				311416092014AD9B00FB25BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3114160A2014AD9B00FB25BD /* Build configuration list for PBXNativeTarget "GetMyAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3114160B2014AD9B00FB25BD /* Debug */,
+				3114160C2014AD9B00FB25BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3114160D2014AD9B00FB25BD /* Build configuration list for PBXNativeTarget "GetMyAgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3114160E2014AD9B00FB25BD /* Debug */,
+				3114160F2014AD9B00FB25BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		311415F42014AD9B00FB25BD /* GetMyAge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				311415F52014AD9B00FB25BD /* GetMyAge.xcdatamodel */,
+			);
+			currentVersion = 311415F52014AD9B00FB25BD /* GetMyAge.xcdatamodel */;
+			path = GetMyAge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 311415E22014AD9A00FB25BD /* Project object */;
+}
